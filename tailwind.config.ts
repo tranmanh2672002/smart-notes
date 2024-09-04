@@ -13,8 +13,29 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      backgroundColor: {
+        primary: "var(--primary-color)",
+        secondary: "#EFECE6",
+      },
+      textColor: {
+        "gradient-primary": "transparent",
+      },
+      borderColor: {
+        primary: "#048C80",
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }: { addUtilities: any }) {
+      addUtilities({
+        ".text-gradient-primary": {
+          backgroundImage:
+            "linear-gradient(234.07deg, #AAD9D1 0%, #017373 125.68%)",
+          backgroundClip: "text",
+          textFillColor: "transparent",
+        },
+      });
+    },
+  ],
 };
 export default config;
