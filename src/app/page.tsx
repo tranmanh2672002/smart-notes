@@ -1,7 +1,19 @@
+import HomeBanner from "./components/home/banner";
+import HomeDiscover from "./components/home/discover";
+import HomeIntro from "./components/home/intro";
+import HomeLogoList from "./components/home/list-logo";
+import HomeVideo from "./components/home/video";
+
 export default function Home() {
   return (
-    <div className="flex mx-4">
-      <div className="h-[2000px] w-7 bg-slate-500"></div>
-    </div>
+    <>
+      <HomeBanner />
+      <HomeLogoList />
+      <HomeIntro />
+      <HomeDiscover />
+      <HomeIntro />
+      <HomeVideo />
+      <HomeIntro />
+    </>
   );
 }

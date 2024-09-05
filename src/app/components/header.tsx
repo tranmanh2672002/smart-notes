@@ -49,7 +49,7 @@ function Header() {
 
   return (
     <div
-      className="fixed top-0 left-0 right-0  bg-[#080808] 
+      className="fixed top-0 left-0 right-0 z-50 bg-[#080808] 
         sm:h-[86px] md:h-[90px] h-[76px] 
         border border-b-1 border-t-0 border-l-0 border-r-0 border-[#048C80]
         flex  items-center justify-between
@@ -91,7 +91,7 @@ function Header() {
       </div>
 
       <div
-        className={`fixed top-0 left-0 w-full h-full bg-black text-white 
+        className={`fixed top-0 left-0 w-full h-full bg-black text-white md:hidden
             transition-transform duration-300 
             ${isOpen ? "translate-x-0" : "-translate-x-full"}`}
       >

@@ -4,4 +4,17 @@
 
 :root {
   --primary-color: #017373;
+  --text-primary-1: #efece6;
+  --text-primary-2: #bababa;
+
+  --text-secondary-1: #080808;
+  --text-secondary-2: #333333;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.background-overlay-logo {
+  background-image: url("/assets/img/overlay-logo.svg");
 }

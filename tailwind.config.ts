@@ -12,6 +12,7 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "overlay-logo": "url('/assets/img/overlay-logo.svg')",
       },
       backgroundColor: {
         primary: "var(--primary-color)",
@@ -19,6 +20,10 @@ const config: Config = {
       },
       textColor: {
         "gradient-primary": "transparent",
+        "primary-1": "var(--text-primary-1)",
+        "primary-2": "var(--text-primary-2)",
+        "secondary-1": "var(--text-secondary-1)",
+        "secondary-2": "var(--text-secondary-2)",
       },
       borderColor: {
         primary: "#048C80",
