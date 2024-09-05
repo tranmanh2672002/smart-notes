@@ -17,6 +17,8 @@ const config: Config = {
       backgroundColor: {
         primary: "var(--primary-color)",
         secondary: "#EFECE6",
+        "gradient-primary":
+          "linear-gradient(234.07deg, #AAD9D1 0%, #017373 125.68%)",
       },
       textColor: {
         "gradient-primary": "transparent",
