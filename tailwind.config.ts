@@ -14,13 +14,20 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         "bg-test1": "url('./assets/images/demo.jpg')",
         "bg-test2": "url('./assets/images/demo.jpeg')",
+        "overlay-logo": "url('/assets/img/overlay-logo.svg')",
       },
       backgroundColor: {
         primary: "var(--primary-color)",
         secondary: "#EFECE6",
+        "gradient-primary":
+          "linear-gradient(234.07deg, #AAD9D1 0%, #017373 125.68%)",
       },
       textColor: {
         "gradient-primary": "transparent",
+        "primary-1": "var(--text-primary-1)",
+        "primary-2": "var(--text-primary-2)",
+        "secondary-1": "var(--text-secondary-1)",
+        "secondary-2": "var(--text-secondary-2)",
       },
       borderColor: {
         primary: "#048C80",

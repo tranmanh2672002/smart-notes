@@ -54,8 +54,9 @@ function Footer() {
       <div
         className="md:px-[60px] sm:px-[48px] px-[20px]    
         sm:pt-[80px] pt-[56px] md:pb-[80px] pb-[56px]  
-        bg-black 
-        flex lg:flex-row flex-col xl:gap-[200px] lg:gap-[100px] gap-[30px] lg:items-center lg:justify-center"
+        bg-[#080808] 
+        flex lg:flex-row flex-col xl:gap-[200px] lg:gap-[100px] gap-[30px] lg:items-center lg:justify-center
+        border-t-[1px] border-primary"
       >
         <div className="min-w-[233px]">
           <div className="flex gap-2 mb-[32px] lg:mb-[64px]">
