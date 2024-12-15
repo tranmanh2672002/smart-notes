@@ -4,4 +4,10 @@
 
 :root {
   --primary-color: #017373;
+  perspective: 1px;
+  transform-style: preserve-3d;
+}
+
+.background-image {
+  text-color: red;
 }

@@ -49,7 +49,7 @@ function Header() {
 
   return (
     <div
-      className="fixed top-0 left-0 right-0  bg-[#080808] 
+      className="sticky z-50 top-0 left-0 right-0  bg-[#080808] 
         sm:h-[86px] md:h-[90px] h-[76px] 
         border border-b-1 border-t-0 border-l-0 border-r-0 border-[#048C80]
         flex  items-center justify-between

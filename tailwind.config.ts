@@ -12,6 +12,8 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "bg-test1": "url('./assets/images/demo.jpg')",
+        "bg-test2": "url('./assets/images/demo.jpeg')",
       },
       backgroundColor: {
         primary: "var(--primary-color)",
