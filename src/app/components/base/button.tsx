@@ -12,23 +12,11 @@ interface Props {
 export default function ButtonBase(props: Props) {
   const style =
     props.variant == "primary"
-      ? `flex h-fit bg-gradient-to-r from-[#55A6A2] to-[#AAD9D1] px-6 py-4 rounded-lg ${
-          props.width ? `w-[${props.width}]` : ""
-        }`
-      : `flex h-fit bg-secondary px-6 py-4 rounded-lg border-primary border-[1px] ${
-          props.width ? `w-[${props.width}]` : ""
-        }`;
+      ? `flex h-fit bg-gradient-to-r from-[#55A6A2] to-[#AAD9D1] px-6 py-4 rounded-lg`
+      : `flex h-fit bg-secondary px-6 py-4 rounded-lg border-primary border-[1px]`;
 
   return (
-    <button
-      className={style}
-      style={{
-        width: props.width ? props.width : "",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-      }}
-    >
+    <button className={style}>
       {props.prependIcon && (
         <Image
           className="mr-2 "
