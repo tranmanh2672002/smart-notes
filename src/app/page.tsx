@@ -34,7 +34,7 @@ export default function Home() {
           id="content"
           className="text-black h-[1000px] mt-[-20px] rounded-t-[20px] bg-red-300"
         >
-          commit 3
+          commit 2
         </div>
       </div>
     </>
